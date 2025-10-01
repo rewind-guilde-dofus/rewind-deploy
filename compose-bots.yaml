@@ -1,0 +1,4 @@
+version: "3"
+services:
+  discordbots:
+    image: docker.io/rewinddevapp/rewind-dofus-app:2.1

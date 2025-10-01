@@ -1,0 +1,10 @@
+version: "3"
+services:
+  website:
+    image: docker.io/rewinddevapp/rewind-website:1.0
+    ports:
+      - 8080:8080
+  backend:
+    image: docker.io/rewinddevapp/rewind-backend:1.0
+    ports:
+      - 8081:3000
